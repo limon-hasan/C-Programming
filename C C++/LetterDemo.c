@@ -17,8 +17,8 @@ int main()
 {
     char h;
     printf("Enter any Uppercase letter : ");
-    scanf("%c",&h);
+    scanf("%c",&h);   //D=68
 
-    printf("The lowercase letter is = %c",h+32);
+    printf("The lowercase letter is = %c",h+32);   //d=100
     getch();
 }
