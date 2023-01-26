@@ -1,4 +1,5 @@
 //area = sqrt(s*(s-a)*(s-b)*(s-c))
+//s = (a+b+c)/2
 
 #include<stdio.h>
 int main()
