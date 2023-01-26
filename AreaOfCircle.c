@@ -26,3 +26,20 @@ int main()
 
  return 0;
 }
+
+OR,
+
+
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    float r, area;
+    printf("Enter the radius = ");
+    scanf("%f",&r);
+
+    area = M_PI * r *r;
+    printf("Area of circle is = %.2f",area);
+
+ return 0;
+}
