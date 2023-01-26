@@ -8,6 +8,5 @@ int main()
     F = (C*1.8)+32;
     printf("Farenheit is = %.1f",F);
 
-
     return 0;
 }
