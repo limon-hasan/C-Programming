@@ -34,7 +34,7 @@ int main()
 
     s = (a+b+c)/2;
     area = sqrt (s*(s-a)*(s-b)*(s-c));
-    printf("Area is = %.lf\n",area);
+    printf("Area is = %lf\n",area);
 
 
  return 0;
