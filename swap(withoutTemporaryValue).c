@@ -17,7 +17,9 @@ int main()
     return 0;
 }
 
+
 (2)--------------------------
+    
     
 #include<stdio.h>
 int main()
