@@ -14,7 +14,6 @@ return 0;
 
 OR-----------
     
-    
 #include<stdio.h>
 int main()
 {
