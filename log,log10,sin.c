@@ -7,7 +7,7 @@ int main()
     double result = log(x);
     printf("log(%lf) is = %lf",x,result);
 
-    return 0;
+    return 0;                                                 // Egula double type value return kore tai double type data nisi
 }
 
 
