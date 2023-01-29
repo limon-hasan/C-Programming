@@ -7,7 +7,4 @@ int main()
     printf("%.4f",result);
 
 }                                                              
-
-
-
-                                        
+                                    
