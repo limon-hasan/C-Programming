@@ -8,3 +8,19 @@ int main()
 
 }                                                              
                                     
+
+OR----------
+    
+
+#include<stdio.h>
+int main()
+{
+    int x ;
+    printf("Enter any value ");
+    scanf("%d",&x);
+
+    double result = sqrt(x);
+    printf("%.4lf",result);
+
+}
+    
