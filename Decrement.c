@@ -49,7 +49,7 @@ int main()
 {
     int x=10;
     int y = x--; //y=10
-    printf("x = %d\n",x);
+    printf("x = %d\n",x); //x=9
     printf("y = %d\n",y);
     return 0;
 }
