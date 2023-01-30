@@ -1,6 +1,6 @@
 (1)____________________________________________________________-    
     
-#include<stdio.h>             //Pre Decrement
+#include<stdio.h>                  //Pre Decrement
 int main()
 {
     int x=10;
@@ -17,6 +17,18 @@ int main()
     int x=10;
     int y = --x; //y=9
     printf("x = %d\n",y);
+    return 0;
+}
+
+Or,______________________________________
+
+#include<stdio.h>                 //Pre Decrement
+int main()
+{
+    int x=10;
+    int y = --x; //y=9
+    printf("x = %d\n",x); //x=9
+    printf("y = %d\n",y); //y=9
     return 0;
 }
 
