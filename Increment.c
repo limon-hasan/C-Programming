@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>       //Pre Increment
 int main()
 {
     int x=10;
