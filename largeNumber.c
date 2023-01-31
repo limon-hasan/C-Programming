@@ -55,7 +55,7 @@ int main()
                                                  
     }                                     // else shobshomoy program er shesh e thake, program e ekta matro else thakte pare. Kintu proyonjon onujayi if, else-if jotogula iccha totogulause kora jabe
                                           
-                                          // if,else-if er vitore conditon thake kintu else er vitore condition thake na
+                                          // if,else-if er vitore conditon thake kintu else er vitore condition thake na. Jodi else use korte chai tahole shobar shesh ei use korte hobe.
     
     else
     {
