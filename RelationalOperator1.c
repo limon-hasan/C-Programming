@@ -10,6 +10,10 @@
 //control statement = conditional control statement, loop control statement
 //conditional control statement = if-else,switch
 
+
+(1)________________________________________________
+    
+    
 #include<stdio.h>
 int main()
 {
@@ -30,7 +34,7 @@ int main()
 }
 
 
-Or_____________________________________________________________________________________
+(2)____________________________________________________________________
 
 
 #include<stdio.h>
