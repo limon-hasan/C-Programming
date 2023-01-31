@@ -28,3 +28,26 @@ int main()
     return 0;
 
 }
+
+
+Or_____________________________________________________________________________________
+
+
+#include<stdio.h>
+int main()
+{
+    int time = 15;
+    if(time==10)
+    {
+
+        printf("Good morning\n");
+        printf("Maksudul Hasan Limon");
+    }
+    else
+    {
+        printf("Sorry it's not morning\n");
+        printf("Maksudul Hasan Limon\n");
+
+    }
+return(0);
+}
