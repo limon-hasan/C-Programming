@@ -7,18 +7,15 @@ int main()
 
     if(num1>num2)
     {
-
-        printf("num1");
+        printf("Large is = %d",num1);
     }
     else if(num1<num2)
     {
-
-        printf("num2");
+        printf("Large is = %d",num2);
     }
     else
     {
-        printf("numbers are equal");
+        printf("Numbers are equal");
     }
 return(0);
 }
-
