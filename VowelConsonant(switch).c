@@ -1,3 +1,5 @@
+(1)_______________________________________________________________
+
 #include<stdio.h>
 int main()
 {
@@ -22,19 +24,19 @@ int main()
     case 'u':
         printf("Vowel");
         break;
-        case 'A':
+    case 'A':
         printf("Vowel");
         break;
-        case 'E':
+    case 'E':
         printf("Vowel");
         break;
-        case 'I':
+    case 'I':
         printf("Vowel");
         break;
-        case 'O':
+    case 'O':
         printf("Vowel");
         break;
-        case 'U':
+    case 'U':
         printf("Vowel");
         break;
     default:
@@ -44,3 +46,33 @@ int main()
     getch();
 }
 
+(2)____________________________________________________________________
+ 
+ #include<stdio.h>
+int main()
+{
+    char ch;
+    printf("Enter a letter = ");
+    scanf("%c",&ch);
+
+    switch(ch)
+    {
+    case 'a':
+    case 'e':
+    case 'i':
+    case 'o':
+    case 'u':
+    case 'A':
+    case 'E':
+    case 'I':
+    case 'O':
+    case 'U':
+        printf("Vowel");
+        break;
+    default:
+        printf("Consonant");
+
+    }
+    getch();
+}
+   
