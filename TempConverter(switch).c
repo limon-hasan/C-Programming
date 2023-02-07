@@ -3,7 +3,6 @@ int main()
 {
     int A;
     float B,XY;
-    float C,AB;
     printf("Temperature Conversion\n");
     printf("1. Celsius to Farenheit Conversion\n");
     printf("2. Farenheit to Celsius Conversion\n");
@@ -22,12 +21,11 @@ int main()
         case 2:
          printf("Enter your Farenheit temperature = ");
         scanf("%f",&B);
-        XY = (B-32)/1.8;
+        XY = (B-32)/1.8;         // Ekhane case-1 er moto same B,XY variable na niye onno duita variable nileo hoto
         printf("The Celsius temperature = %f", XY);
         break;
         default:
             printf("Not a valid option");
-
     }
 
     getch();
