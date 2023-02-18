@@ -1,4 +1,4 @@
-1-(For Loop)-------------------------------------
+(For Loop)-------------------------------------
 
 
 #include<stdio.h>
@@ -18,7 +18,21 @@ int main()
 }
 
 
-2-(while loop)-----------------------------------------
+Or,
+
+
+ #include<stdio.h>
+int main()
+{
+    int x;
+    for(x=-2; x>=-100; x--)
+        printf("%d\n",x);
+
+}
+
+
+
+(while loop)-----------------------------------------
     
 
 #include<stdio.h>
@@ -29,8 +43,27 @@ int main()
 
     {
         printf("%d\n",i);
-        i++;
+        i++;              //increment
     }
 
 
 }
+
+
+
+(do while loop)----------------------------------
+    
+    
+#include<stdio.h>
+int main()
+{
+    int i=1;
+    do                  // Prothom e do er kaj kore pore while er kaj kore
+    {
+        printf("%d\n",i);
+        i++;              //increment
+    }
+    while(i<=10); // condition
+
+}
+
