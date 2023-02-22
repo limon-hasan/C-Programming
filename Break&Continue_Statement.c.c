@@ -24,8 +24,7 @@ int main()
      value= 7
      value= 8
     value= 10
-
-
+    
     */
     getch();
 }
