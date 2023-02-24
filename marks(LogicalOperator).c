@@ -5,7 +5,7 @@ main()
     printf("Enter Mark = ");
     scanf("%d",&mark);
 
-    if(mark>=100 || mark<0)
+    if(mark>100 || mark<0)
     {
         printf("Invalid");
     }
