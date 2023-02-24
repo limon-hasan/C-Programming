@@ -10,8 +10,8 @@ int main()
     printf("Enter an operator (+,-,*,/) = ");              // Ekhane character print agee na niye jodi numbers print agee nei tahole thikmoto run korbe na, shudhu numbers print korbe, character korbe na
     scanf("%c",&op);                                       // Shobshomoy kheyal rakhte hobe je character ar number thakle agee character print korbo, pore number print korbo
     printf("Enter two numbers = ");
-    scanf("%lf %lf",&num1,&num2);
-
+    scanf("%lf %lf",&num1,&num2);                          // Ar jodi character age print na kore number e print korte chai tahole input newar shomoy ektu space dite hobe
+                                                           // Jemon [scanf(" %c",&op)] ekhane %c er age space diyechi. Evabe diye korleo hobe. 
     switch(op)
     {
     case '+':
