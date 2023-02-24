@@ -64,11 +64,3 @@ main()
         printf("Not in range\n");
     return 0;
 }
-
-
-
-
-
-
-
-
