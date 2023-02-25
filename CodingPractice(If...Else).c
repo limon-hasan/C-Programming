@@ -69,3 +69,41 @@ main()
             printf("Not in range\n");
     return 0;
 }
+
+
+
+(3)-----------------------------------------------------------
+    
+    
+#include<stdio.h>
+main()
+{
+    float sales,commission;
+    printf("Enter the sales = ");
+    scanf("%f",&sales);
+
+    if(sales>=1 && sales<=10000)
+    {
+        commission= 0.04*sales;
+        printf("commission = %f\n",commission);
+    }
+        else if(sales>=10001 && sales<=20000)
+        {
+            commission= 0.05*sales;
+            printf("commission = %f\n",commission);
+        }
+        else if(sales>=20001 && sales<=30000)
+        {
+            commission= 0.06*sales;
+            printf("commission = %f\n",commission);
+        }
+        else if(sales>30000)
+        {
+            commission= 0.07*sales;
+            printf("commission = %f\n",commission);
+        }
+        else
+            printf("Not in range\n");
+        return 0;
+    }
+   
