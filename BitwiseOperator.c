@@ -26,3 +26,19 @@ int main()
     printf("a^b = %d\n",c);
 
 }
+
+
+Or-------------------------------------------------------
+    
+    
+#include<stdio.h>                           // Bitwise NOT
+main()
+{
+    int x;
+    printf("Enter a value = ");
+    scanf("%d",&x);                  //  x = 3
+
+    printf("%d",~x);                 // ~x = -4
+
+    return 0;
+}
