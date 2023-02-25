@@ -42,25 +42,30 @@ int main()
 
 
 (2)----------------------------------------                    // Sir er Conditional Statement Slide er page-41 er problem (b)
+
     
-#include<stdio.h>                                
+#include<stdio.h>
 main()
 {
-    int salary;
+    float salary,HRA,MA;
     printf("Enter the salary = ");
-    scanf("%d",&salary);
+    scanf("%f",&salary);
 
     if(salary>=5000 && salary<=10000)
-    {
-        printf("HR = 10%\n");
-        printf("MA = 5%\n");
-    }
+      {
+        HRA= salary*0.1;
+        MA= salary*0.05;
+        printf("HRA = %f",HRA);
+        printf("MA = %f",MA);
+        }
     else if(salary>=10001 && salary<=15000)
-    {
-        printf("HR = 15%\n");
-        printf("MA = 8%\n");
-    }
-    else
-        printf("Not in range\n");
+        {
+        HRA= salary*0.15;
+        MA= salary*0.08;
+        printf("HRA = %f",HRA);
+        printf("MA = %f",MA);
+        }
+        else
+            printf("Not in range\n");
     return 0;
 }
