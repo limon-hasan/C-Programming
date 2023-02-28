@@ -11,8 +11,8 @@ int main()
                       // Ar if er vitore condition false hole continue kaj korbe na. tokhon niche printf er dike jabe
         printf("%d\n",i);
         if(i==10)
-            break; // loop terminate. Mane if er ei condition true hole break hoye jabe mane loop er kaj shesh hoye jabe ar upore uthbe na.
-                   // Ar if er vitor ei condition  true na hole abar upore pathaiye dibe
+            break; // loop terminate kore mane off kore dey loop. Mane if er ei condition true hole break hoye jabe mane loop er kaj shesh hoye jabe ar upore uthbe na.
+                   // Ar if er vitor ei condition  true na hole abar upore pathaiye dibe mane loop e
 
     }
 
