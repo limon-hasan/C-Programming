@@ -9,7 +9,7 @@ int main()
 
     while(temp!=0)
     {
-        r= temp % 10;
+        r = temp % 10;
         sum = sum + r;
         temp= temp/10;
     }
