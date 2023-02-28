@@ -9,7 +9,7 @@ int main()
 
     for(i=1; i<=n; i++)
     {
-        fact=fact*i;
+        fact=fact*i;   // fact=24
     }
 
     printf("Factorial = %d\n",fact);
