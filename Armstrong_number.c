@@ -12,9 +12,8 @@ int main()
             sum=sum+r*r*r;
             temp=temp/10;
         }
-        printf("%d\n",sum);   // sum=153
-
-        if(num==sum)
+                            
+        if(num==sum)      // sum=153
             printf("Armstrong number\n");
         else
             printf("Not Armstrong number\n");
