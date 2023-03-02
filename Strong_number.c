@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>         // Strong number hocche oi number er digit gular factorial er sum jodi number er shathe mile jay tahole number ta strong number hobe
 int main()
 {
     int num,temp,r,fact,sum=0,i;
