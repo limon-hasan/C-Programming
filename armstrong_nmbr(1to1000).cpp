@@ -21,6 +21,6 @@ int main()
 
             if(sum==i)
                 printf("Armstrong Number = %d\n",i);
-            sum = 0;         // Ekhane sum zero diye nite hobe karon printf e armstrong number ta showkorar por jokhon abar upore for loop e jabe oikhan theke pore loop er vitor diye cholar shomoy last jeita sum er value chilo oita diye calculation korbe mane zero diye korbe na, mane sum er value ta bere jabe onek ejonno prottek bar print korar por upore jawar age sum er value zero diye nibo jeno pore calculation er khetre prothome zero diye calculate kore
+            sum = 0;         // Ekhane sum zero diye nite hobe karon printf e armstrong number ta showkorar por jokhon abar upore for loop e jabe oikhan theke pore loop er vitor diye cholar shomoy last jeita sum er value chilo oita diye calculation korbe mane zero diye korbe na, mane tokhon sum er value ta bere jabe onek ejonno prottek bar print korar por upore jawar age sum er value zero diye nibo jeno pore calculation er khetre prothome zero diye calculate kore
         }
 }
