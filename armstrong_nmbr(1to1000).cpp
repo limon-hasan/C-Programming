@@ -1,4 +1,3 @@
-// Check Armstrong number between 1 to 1000 and show that 
 // 1 theke 1000 porjonto jei number gula Armstrong sheigula print korte hobe
 
 #include<stdio.h>                  // Armstrong number holo ekta mumber er prottek digit er cube er total sum oi number er same hobe
