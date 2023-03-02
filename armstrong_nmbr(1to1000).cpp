@@ -1,3 +1,5 @@
+// Check Armstrong number between 1 to 1000 and show that 
+
 #include<stdio.h>                  // Armstrong number holo ekta mumber er prottek digit er cube er total sum oi number er same hobe
 int main()
 {
