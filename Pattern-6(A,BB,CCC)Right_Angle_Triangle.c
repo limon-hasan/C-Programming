@@ -11,7 +11,7 @@ int main()
         {
             for(col=1; col<=row; col++)
             {
-                printf("%c ",row+64);
+                printf("%c ",row+64);  // row+64 er jaygay row+96 diile choto hater letter gula print hobe
             }
             printf("\n");
         }
