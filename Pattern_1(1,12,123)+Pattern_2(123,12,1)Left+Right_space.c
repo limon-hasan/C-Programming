@@ -16,7 +16,7 @@ int main()
         // printing number
         for(col=1; col<=row; col++)
         {
-            printf("%c",col+64);
+            printf("%c",col);
         }
         printf("\n");
     }
@@ -32,7 +32,7 @@ int main()
         // printing number
         for(col=1; col<=row; col++)
         {
-            printf("%c",col+64);
+            printf("%c",col);
         }
         printf("\n");
     }
