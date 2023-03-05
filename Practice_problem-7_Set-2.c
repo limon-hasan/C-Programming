@@ -1,19 +1,25 @@
-// practice problem 7
-
 #include<stdio.h>
 int main()
 {
-    int num,r,temp;
+    int num,r,temp,sum=0,value,last;
     printf("Enter a number  = ");
     scanf("%d",&num);  //num =638
 
-    temp = num;
+    temp=num;
     while(temp!=0)
     {
-        r = temp%10;
-        temp = temp/10;
+        r=temp%10;
+        sum=sum*10+r;
+        temp=temp/10;
+    }
 
-        switch(r)
+    value = sum;
+    while(value!=0)
+    {
+        last = value%10;
+        value = value/10;
+
+        switch(last)
         {
         case 1:
             printf("One ");
@@ -43,6 +49,5 @@ int main()
             printf("Nine ");
             break;
         }
-
     }
 }
