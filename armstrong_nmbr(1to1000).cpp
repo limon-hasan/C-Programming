@@ -24,3 +24,32 @@ int main()
             sum = 0;         // Ekhane sum zero diye nite hobe karon printf e armstrong number ta showkorar por jokhon abar upore for loop e jabe oikhan theke pore loop er vitor diye cholar shomoy last jeita sum er value chilo oita diye calculation korbe mane zero diye korbe na, mane tokhon sum er value ta bere jabe onek ejonno prottek bar print korar por upore jawar age sum er value zero diye nibo jeno pore calculation er khetre prothome zero diye calculate kore
         }
 }
+
+
+Or,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+#include<stdio.h>                 
+int main()
+{
+    int j,first,last,temp,r,sum=0;
+    printf("Enter first number = ");
+    scanf("%d",&first);
+    printf("Enter last number = ");
+    scanf("%d",&last);
+    for(j=first; j<=last; j++)
+    {
+        temp =j;
+        while(temp!=0)
+        {
+            r=temp%10;
+            sum=sum+r*r*r;
+            temp=temp/10;
+        }
+
+        if(j==sum)      // sum=153
+            printf("%d ",j);
+        sum=0;
+    }
+
+}
