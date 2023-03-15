@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-while(1)
-{
+    while(1)
     {
+       {
         int a[30],i,n,value;
         printf("Enter how many numbers = ");
         scanf("%d",&n);
@@ -24,9 +24,8 @@ while(1)
             printf("Found\n");
         else
             printf("Not found\n");
+       }
     }
-
-}
 }
 
 
