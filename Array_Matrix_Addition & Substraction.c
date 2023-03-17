@@ -44,7 +44,7 @@ int main()
             printf("\n");
         }
 
-        printf("B = ");
+        printf("\nB = ");
         for(i=0; i<no_rows; i++)
         {
             for(j=0; j<no_cols; j++)
