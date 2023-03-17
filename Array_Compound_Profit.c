@@ -28,7 +28,7 @@ int main()
         for(i=0; i<5; i++)
         {
             value[i] = value[i]+value[i]*(low_rate+i)/100;
-            printf("%5.2f\t",value[i]);
+            printf(" %6.2f  ",value[i]);
         }
         printf("\n");
     }
