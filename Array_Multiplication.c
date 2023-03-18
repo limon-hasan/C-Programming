@@ -49,7 +49,7 @@ int main()
         {
             for(j=0; j<c2; j++)
             {
-                for(k=0; k<r2; k++)
+                for(k=0; k<r2; k++)        // ekhane r2 na diye c1 dileo hobe. karon r2=c1
                 {
                     sum = sum + first[i][k] * second[k][j];
                 }
