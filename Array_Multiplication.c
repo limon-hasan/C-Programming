@@ -56,7 +56,6 @@ int main()
                 result[i][j] = sum;
                 sum=0;
             }
-            printf("\n");
         }
 
 
