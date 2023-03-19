@@ -12,7 +12,7 @@ int main()
     printf("\nRow totals : ");
     for(i=0; i<5; i++)
     {
-        sum = sum + A[i][0]+A[i][1]+A[i][2]+A[i][3]+A[i][4];
+        sum = sum + A[i][0]+A[i][1]+A[i][2]+A[i][3]+A[i][4];    // sum =A[i][0]+A[i][1]+A[i][2]+A[i][3]+A[i][4]; Evabeo lekha jaito
         printf("%d ",sum);
         sum=0;
     }
