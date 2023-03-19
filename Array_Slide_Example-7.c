@@ -18,7 +18,7 @@ int main()
     }
 
   printf("\nColumn totals : ");
-    for(j=0; j<5; j++)
+    for(j=0; j<5; j++)        //  Ekhane j na niye i diyeo loop chalano jabe 
     {
         sum = sum + A[0][j]+A[1][j]+A[2][j]+A[3][j]+A[4][j];
         printf("%d ",sum);
