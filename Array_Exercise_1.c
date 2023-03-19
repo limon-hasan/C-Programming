@@ -5,8 +5,8 @@ int main()
 
     printf("Enter the total numbers i want = ");
     scanf("%d",&n);
+    
     printf("Enter the inputs : ");
-
     for(i=0; i<n; i++)
     {
         scanf("%d",&A[i]);
