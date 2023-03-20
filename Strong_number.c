@@ -44,7 +44,7 @@ int main()
             r = temp%10;
             if(i==r)
             {
-                freq++;
+                freq++;   // Ekhane freq variable na niye count variable nileo hoto
             }
             temp=temp/10;
         }
