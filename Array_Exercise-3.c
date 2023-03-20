@@ -56,7 +56,7 @@ int main()
     {
         if(a[i]<l1)
             {
-                l2 = l1;
+            l2 = l1;
             l1 = a[i];
             }
             else if(a[i]>l1 && a[i]<l2)
