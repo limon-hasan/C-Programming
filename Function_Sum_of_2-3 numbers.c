@@ -105,3 +105,22 @@ int main()
     printf("The SUM is = %d\n",result);
 }
 
+
+Or,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+#include<stdio.h>
+
+int sum(int a,int b)
+{
+    int total = a+b;
+    return total;
+}
+
+int main()
+{
+
+    printf("The SUM is = %d\n",sum(10,20));
+
+    printf("The SUM is = %d\n",sum(10,30));
+}
+
