@@ -149,7 +149,7 @@ Or,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 #include<stdio.h>
 
-int sum(int a,int b, int c)
+void sum(int a,int b, int c)
 {
     printf("The SUM is = %d",a+b+c);
 }
