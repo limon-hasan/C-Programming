@@ -124,3 +124,21 @@ int main()
     printf("The SUM is = %d\n",sum(10,30));
 }
 
+
+Or,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,       // 3 numbers
+
+#include<stdio.h>
+
+int sum(int a,int b, int c)
+{
+    int total = a+b+c;
+    return total;
+}
+
+int main()
+{
+
+    printf("The SUM is = %d\n",sum(10,20,30));
+
+    printf("The SUM is = %d\n",sum(10,30,40));
+}
