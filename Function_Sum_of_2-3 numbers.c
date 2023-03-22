@@ -149,7 +149,7 @@ Or,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 #include<stdio.h>
 
-void sum(int a,int b, int c)
+void sum(int a,int b, int c)      // Ekhane jehetu ei function e kono kisu return kortese na tai return type hishebe void likhbo that means kono kisu return korbe na
 {
     printf("The SUM is = %d",a+b+c);
 }
