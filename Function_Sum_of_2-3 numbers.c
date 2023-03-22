@@ -5,7 +5,7 @@ int sum(int a,int b)
     return a+b;
 }
 
-int main()
+int main()      // Upore jotoi onno user defined function thakuk na keno program always main function thekei shuru hobe
 {
     int num1,num2;
     printf("Enter two numbers = ");
@@ -141,4 +141,20 @@ int main()
     printf("The SUM is = %d\n",sum(10,20,30));
 
     printf("The SUM is = %d\n",sum(10,30,40));
+}
+
+
+Or,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+#include<stdio.h>
+
+int sum(int a,int b, int c)
+{
+    printf("The SUM is = %d",a+b+c);
+}
+
+int main()
+{
+    sum(10,20,30);
 }
