@@ -58,6 +58,27 @@ int sum(int a,int b)
 }
 
 
+Or,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+#include<stdio.h>
+
+int main()
+{
+    int num1,num2;
+    printf("Enter two numbers = ");
+    scanf("%d %d",&num1,&num2);
+
+    int result = sum(num1,num2);
+
+    printf("The sum is = %d",result);
+}
+
+int sum(int a,int b)
+{
+    int total = a+b;
+    return total;
+}
 
 
 
