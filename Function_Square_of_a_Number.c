@@ -1,4 +1,7 @@
 #include<stdio.h>
+
+int square(int a);          // function prototype
+
 int main()
 {
     int num;
@@ -17,6 +20,8 @@ int square(int a)
 Or------------------------------------------------------
     
 #include<stdio.h>
+
+int square(int a);          // function prototype    
     
 int square(int a)
 {
@@ -36,7 +41,9 @@ int main()
 or-----------------------------------------------------------------
     
     
- #include<stdio.h>
+#include<stdio.h>
+    
+int square(int a);          // function prototype
 
 int square(int a)
 {
