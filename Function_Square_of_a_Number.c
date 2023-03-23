@@ -17,7 +17,7 @@ int square(int a)
 Or------------------------------------------------------
     
 #include<stdio.h>
-
+    
 int square(int a)
 {
 printf("The value of %d is %d",a,a*a);
