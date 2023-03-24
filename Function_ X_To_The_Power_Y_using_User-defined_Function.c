@@ -51,3 +51,28 @@ int main()
 
 }
     
+
+Or----------------------------------------------
+    
+#include<stdio.h>
+
+void calculatePower(int a, int b)
+
+{
+    int answer =1;
+    for(int i=1; i<=b; i++)
+    {
+        answer = answer*a;
+    }
+    printf("%d to the power %d is %d\n",a,b,answer);
+}
+
+int main()
+{
+
+    calculatePower(5,3);
+    calculatePower(3,3);
+    calculatePower(6,3);
+    calculatePower(2,3);
+
+}
