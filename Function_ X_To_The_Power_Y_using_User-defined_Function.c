@@ -21,3 +21,33 @@ int main()
     int result = calculatePower(base,power);
     printf("%d to the power %d = %d",base,power,result);
 }
+
+
+Or-------------------------------------------------------
+    
+    
+#include<stdio.h>
+
+void calculatePower(int a, int b)
+
+{
+    int answer =1;
+    for(int i=1; i<=b; i++)
+    {
+        answer = answer*a;
+    }
+    printf("%d to the power %d is %d",a,b,answer);
+}
+
+int main()
+{
+    int base,power;
+    printf("Enter base = ");
+    scanf("%d",&base);
+    printf("Enter power = ");
+    scanf("%d",&power);
+
+    calculatePower(base,power);
+
+}
+    
