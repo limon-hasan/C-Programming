@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int calculatePower(int a, int b)
-    { 
+{ 
     int answer =1;
     for(int i=1; i<=b; i++)
     {
