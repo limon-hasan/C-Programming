@@ -104,3 +104,31 @@ int main()
 
 }
     
+
+Or----------------------------------------------------------
+    
+    
+#include<stdio.h>
+
+void array(int num[], int size)
+{
+    printf("The elements are : ");
+    for(int i=0; i<size; i++)
+    {
+        printf("%d ",num[i]);
+    }
+}
+
+int main()
+{
+   int a[100];
+   printf("Enter the elements of the array : ");
+   for(int i=0; i<5; i++)
+   {
+       scanf("%d",&a[i]);
+   }
+
+    array(a,5);
+
+}
+    
