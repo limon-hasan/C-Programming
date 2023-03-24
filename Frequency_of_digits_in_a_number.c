@@ -17,3 +17,31 @@ int main()
     }
    printf("The frequency of %d = %d",d,count); // d=1, count = 3, 
 }
+
+
+Or---------------------------------------------------
+    
+    
+#include<stdio.h>
+int main()
+{
+    int i,num,temp,r,freq;
+    printf("Enter any number = ");
+    scanf("%d",&num);
+
+    for(i=0; i<10; i++)
+    {
+        freq=0;
+        temp = num;
+        while(temp!=0)
+        {
+            r = temp%10;
+            if(i==r)
+                freq++;
+            temp = temp/10;
+        }
+
+        printf("The frequency of %d = %d\n",i,freq);
+    }
+}
+    
