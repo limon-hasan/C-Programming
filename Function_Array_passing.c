@@ -122,13 +122,17 @@ void array(int num[], int size)
 int main()
 {
    int a[100];
+   int n;
+   printf("Enter the range = ");
+   scanf("%d",&n);
+    
    printf("Enter the elements of the array : ");
    for(int i=0; i<5; i++)
    {
        scanf("%d",&a[i]);
    }
 
-    array(a,5);
+    array(a,n);
 
 }
     
