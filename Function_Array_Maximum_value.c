@@ -35,6 +35,35 @@ Or------------------------------------------------
    
 #include<stdio.h>
 
+int num_array(int num[]);
+
+int main()
+{
+    int a[5]= {10,20,30,40,50};
+
+    int result = num_array(a);
+    printf("The largest elements of the Array = %d",result);
+
+    return 0;
+}
+
+int num_array(int num[])
+{
+    int max= num[0];
+    for(int j=1; j<5; j++)
+    {
+        if(max<num[j])
+            max=num[j];
+    }
+    return max;
+}
+
+
+Or------------------------------------------------------
+   
+   
+#include<stdio.h>
+
 void num_array(int num[]);
 
 int main()
