@@ -1,6 +1,3 @@
-Or---------------------------------------------
-   
-   
 #include<stdio.h>
 
 int num_array(int num[], int size);
