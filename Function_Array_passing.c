@@ -20,7 +20,7 @@ int main()
 Or--------------------------------------------------------------
     
     
- #include<stdio.h>
+#include<stdio.h>
 
 void array(int num[])
 {
