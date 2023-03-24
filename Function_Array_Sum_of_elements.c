@@ -16,7 +16,7 @@ int main()
 
    printf("The sum of the elements of the Array = %d",result);
    
-   retun 0;
+   return 0;
 }
 
 int num_array(int num[], int size)
