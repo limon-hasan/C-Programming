@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void array(int num[])
+void array(int num[])       // void er jaygay int dileo hobe
 {
     for(int i=0; i<5; i++)
     {
