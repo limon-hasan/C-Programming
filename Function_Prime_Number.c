@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>          // Argument Passed, A Return Value
 
 int checkPrimeNumber(int n);
 
