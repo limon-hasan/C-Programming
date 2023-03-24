@@ -133,6 +133,7 @@ int main()
    }
 
     array(a,n);
-
+    
+    return 0;
 }
     
