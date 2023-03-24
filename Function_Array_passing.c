@@ -127,7 +127,7 @@ int main()
    scanf("%d",&n);
     
    printf("Enter the elements of the array : ");
-   for(int i=0; i<5; i++)
+   for(int i=0; i<n; i++)
    {
        scanf("%d",&a[i]);
    }
