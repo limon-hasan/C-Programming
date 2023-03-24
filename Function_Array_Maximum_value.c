@@ -39,7 +39,7 @@ int num_array(int num[]);
 
 int main()
 {
-    int a[5]= {10,20,30,40,50};
+    int a[]= {10,20,30,40,50,-5};
 
     int result = num_array(a);
     printf("The largest elements of the Array = %d",result);
@@ -50,7 +50,7 @@ int main()
 int num_array(int num[])
 {
     int max= num[0];
-    for(int j=1; j<5; j++)
+    for(int j=1; j<6; j++)
     {
         if(max<num[j])
             max=num[j];
