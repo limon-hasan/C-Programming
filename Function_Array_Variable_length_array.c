@@ -71,8 +71,6 @@ int main()
 
 int sum_array(int row_size,int col_size,int arr[row_size][col_size])
 {
-
-
     int sum=0;
     for(int i=0; i<row_size; i++)
     {
