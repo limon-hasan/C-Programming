@@ -40,18 +40,40 @@ int main()
     for(i=0; i<5; i++)
     {
         total_score = total_score+marks[i][0]+ marks[i][1]+marks[i][2]+marks[i][3]+marks[i][4];
-        printf("Student %d : Total score = %d, ",i+1,total_score);
+        printf("Total score = %d, ",total_score);
         printf("Average = %d\n",total_score/5);
         total_score=0;
     }
-    
+
     for(i=0; i<5; i++)
     {
-      int total_quiz=0;
-     total_quiz = total_quiz+marks[0][i]+ marks[1][i]+marks[2][i]+marks[3][i]+marks[4][i];
-    int average_quiz=total_quiz/5;
-     printf("Average Quiz = %d\n",average_quiz);
+        int total_quiz=0;
+        total_quiz = total_quiz+marks[0][i]+ marks[1][i]+marks[2][i]+marks[3][i]+marks[4][i];
+        int average_quiz=total_quiz/5;
+        printf("Average Quiz = %d\n",average_quiz);
     }
-    
- return 0;
+
+    for(i=0; i<5; i++)
+    {
+        int high_score=marks[0][i];
+        for(int j=0; j<5; j++)
+        {
+            if(high_score<marks[j][i])
+                high_score=marks[j][i];
+        }
+        printf("\nThe highest value of quiz %d = %d\n",i+1,high_score);
+    }
+
+    for(i=0; i<5; i++)
+    {
+      int low_score=marks[0][i];
+        for(int j=0; j<5; j++)
+        {
+            if(low_score>marks[j][i])
+                low_score=marks[j][i];
+        }
+        printf("\nThe lowest value of quiz %d = %d\n",i+1,low_score);
+    }
+
+    return 0;
 }
