@@ -4,7 +4,7 @@ int OCCURRENCE(int ARRAY[], int a);
 
 int main()
 {
-    int A[5],num,n;
+    int A[5],num;
 
     printf("Enter elements : ");
     for(int i=0; i<5; i++)
