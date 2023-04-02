@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int del(int arr[], int size) ;
+void del(int arr[], int size) ;
 
 int main()
 {
@@ -22,7 +22,7 @@ int main()
     return 0;
 }
 
-int del(int arr[], int size)
+void del(int arr[], int size)
 {
     int pos;
     printf("\nFrom which element you want to delete : ");
