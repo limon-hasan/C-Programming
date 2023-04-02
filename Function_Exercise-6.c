@@ -49,7 +49,6 @@ void del(int arr[], int size)
 }
 
 
-
 Or----------------------------------------------------------------
     
 // Using Variable Length Array
