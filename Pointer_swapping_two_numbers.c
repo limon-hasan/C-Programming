@@ -13,8 +13,8 @@ int main()
 
     // swapping
     temp = *ptr1;
-    x = *ptr2;
-    y = temp;
+    x = *ptr2;    // Or,  *ptr1 = *ptr2
+    y = temp;     //      *ptr2 = temp
 
     printf("After swapping :\n");
     printf("x = %d\n",x);
