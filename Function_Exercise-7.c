@@ -25,9 +25,6 @@ int main()
 
 int func(int row, int col, int Arr[row][col])
 {
-
-
-
     printf("\nRow totals : ");
     for(int i=0; i<row; i++)
     {
