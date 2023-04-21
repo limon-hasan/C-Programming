@@ -16,7 +16,8 @@ int main()
     {
         str2[j] = str1[i];
     }
-
+    str2[j]='\0';
+    
 
     printf("str1 = %s\n",str1);
     printf("str2 = %s",str2);
