@@ -9,6 +9,4 @@ int main()
     printf("Source string  = %s\n",source);
     printf("Target string  = %s",target);
 
-
-
 }
