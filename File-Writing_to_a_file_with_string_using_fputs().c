@@ -40,7 +40,7 @@ int main()
         gets(name);
 
         //fputs(name,file);
-        fprintf(file,"\n%s",name);
+        fprintf(file,"\n%s",name);     // "a" mode e fputs function dile notun line e lekha add kora jay na ejonno fputs na diye fprintf diyechi 
         printf("File is written successfully");
         fclose(file);
     }
