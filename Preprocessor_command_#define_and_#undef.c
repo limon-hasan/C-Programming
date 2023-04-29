@@ -26,7 +26,7 @@ Or----------------------------------------
 #include<stdio.h>
 
 #define MAX(a,b) if(a>b) \
-                   printf("%d is maximum",a); \
+                   printf("%d is maximum",a); \        // nicher line e likhte hole \ dite hobe shudhu
                    else \
                     printf("%d is maximum",b);
 
