@@ -12,7 +12,7 @@ Or-----------------------------
     
 #include<stdio.h>
 
-#define MUL(a,b) a*b
+#define MUL(a,b) a*b            // macro hishebe function o use kora jay
 
 int main()
 {
