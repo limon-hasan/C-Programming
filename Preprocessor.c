@@ -10,7 +10,7 @@ int main()
     //printf("%s\n",name);
     //printf("%c\n",ch);
 
-    s         //   upore #define er pore ; ebong ekhane s er pore ; dileo hobe abar #define er por ; na diye shudhu s er pore ; dileo hobe
+    s         //   upore #define er pore (;) ebong ekhane s er pore (;) dileo hobe abar #define er por (;) na diye shudhu s er pore (;) dileo hobe
 
     getch();
 }
