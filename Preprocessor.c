@@ -61,3 +61,24 @@ int main()
 
     getch();
 }    
+
+Or--------------------------------------------
+    
+    #include<stdio.h>
+//#define name "Anisul Islam"
+//char name[] = "Anisul Islam";
+//#define ch 'A'
+
+//#define s printf("East West University\n")
+#define PI 3.1416
+int main()
+{
+    //printf("%s\n",name);
+    //printf("%c\n",ch);
+     printf("%f",PI);
+
+
+
+
+    getch();
+}
