@@ -39,10 +39,25 @@ int main()
 }
 
 
+Or------------------------------------------------------
+    
+#include<stdio.h>
+//#define name "Anisul Islam"
+//char name[] = "Anisul Islam";
+//#define ch 'A'
+
+#define s printf("East West University\n")
+int main()
+{
+    //printf("%s\n",name);
+    //printf("%c\n",ch);
+
+    s;
+    s;
+    s;
+    s;
 
 
 
-
-
-
-
+    getch();
+}    
