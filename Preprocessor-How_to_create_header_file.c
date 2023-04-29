@@ -11,7 +11,7 @@ int main()
 }
 
 
-info.h header file e nicher data gula store kore niyechi
+info.h header file create kore tate nicher data gula store kore niyechi
 #define name "Maksudul Hasan"
 #define age 27
 
@@ -29,11 +29,9 @@ int main()
     return 0;
 }
     
+header.h header file create kore tate nicher data gula store kore niyechi
+
 
 #define age 45
 #define PI 3.1416
 #define lu printf("\nEast West University");
-
-
-
-
