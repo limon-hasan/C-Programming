@@ -22,3 +22,33 @@ void capitalize(char str[])
     puts(str);
 
 }
+
+
+Or------------------------------
+    
+    
+#include<stdio.h>
+
+void capitalize(char *ptr);
+
+int main()
+{
+    char s[] = "Maksudul Hasan";
+    capitalize(s);
+    return 0;
+}
+
+void capitalize(char *ptr)
+{
+    char *t;
+    t = ptr;
+    while(*t!='\0')
+    {
+         if(isalpha(*t))
+         *t = toupper(*t);
+         t++;
+    }
+    puts(ptr);
+}
+
+    
