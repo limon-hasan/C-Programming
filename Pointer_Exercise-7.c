@@ -23,14 +23,14 @@ void find_two_largest(const int *a, int n, int *largest, int *second_largest)
     if(*a>*(a+1))
     {
         // If the first element is larger than the second element
-        largest = *a;               // Set the largest element to the first element
-        second_largest = *(a+1);    // Set the second largest element to the first element
+        *largest = *a;               // Set the largest element to the first element
+        *second_largest = *(a+1);    // Set the second largest element to the first element
     }
 
     else
     {
-        largest = *(a+1);       // Set the largest element to the first element
-        second_largest = *a;    // Set the second largest element to the first element
+        *largest = *(a+1);       // Set the largest element to the first element
+        *second_largest = *a;    // Set the second largest element to the first element
     }
 
     int *p = a+2;   // Pointer to the third element of the array
@@ -39,17 +39,17 @@ void find_two_largest(const int *a, int n, int *largest, int *second_largest)
     while(p<q)   // Iterate through the remaining elements of the array from third element to end of the array
 
     {
-        if(*p>largest)
+        if(*p>*largest)
         {
             // If the current element is larger than the largest element
-            largest = *p;                // Move the current largest element to the second largest
-            second_largest = largest;    // Set the current largest element to the current element
+            *largest = *p;                // Move the current largest element to the second largest
+            *second_largest = *largest;    // Set the current largest element to the current element
         }
 
-        else if(*p>second_largest)
+        else if(*p>*second_largest)
         {
             // If the current element is larger than the second largest element but not the largest
-            second_largest = *p;
+            *second_largest = *p;
         }
 
         p++;   // Move the pointer to the next element
