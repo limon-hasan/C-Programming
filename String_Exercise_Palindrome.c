@@ -1,3 +1,12 @@
+/* Write a program that reads a message, then checks whether it's a
+palindrome (the letters in the message are the same from left to right as
+from right to left). Ignore all characters that aren't letters. Use integer variables to keep
+track of positions in the array. Includes the following function:
+bool is_palindrome(const char *message);
+The function returns true if the string pointed to by message is a
+palindrome. */
+
+
 #include<stdio.h>
 #include<stdbool.h>
 
