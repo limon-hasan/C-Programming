@@ -8,7 +8,7 @@ palindrome. */
 
 
 #include<stdio.h>
-#include<stdbool.h>
+#include<stdbool.h>       // Ei header file use na korleo hobe
 
 bool is_palindrome(char *s1);
 
