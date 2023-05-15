@@ -63,7 +63,7 @@ struct rectangle move_rectangle(struct rectangle r, int x, int y)
 
 (d)-----------------------------------
   
-#include,stdbool.h>
+#include<stdbool.h>
 
 struct point
 {
