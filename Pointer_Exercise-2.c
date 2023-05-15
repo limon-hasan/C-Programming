@@ -27,6 +27,6 @@ void copyArray(int *a, int *b)
 {
     for(int i=0; i<5; i++)
     {
-        *(b+i) = *(a+i);
+        *(b+i) = *(a+i);   // b[i] = a[i] --->  Eivabeo lekha jabe
     }
 }
