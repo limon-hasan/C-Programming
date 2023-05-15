@@ -62,12 +62,7 @@ struct color make_color(int  red, int green, int blue)
 
 (b)---------
 
-struct color
-{
-    int red;
-    int green;
-    int blue;
-};
+    
 int getRed(struct color c);
 
 int getRed(struct color c)
