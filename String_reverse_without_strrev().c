@@ -41,7 +41,7 @@ void reverseSentence(char *sentence)
 
    // std:: istringstream
    // std:: vector<std:: string>
-    token = strtok(sentence, " ");
+    token = strtok(sentence, " ");   // strtok() function is used to tokenize the string. It takes two arguments: the first one is the string to be tokenized (sentence), and the second one is the delimiter (" ").
     while(token!= NULL)
     {
         word[count++] = token;
