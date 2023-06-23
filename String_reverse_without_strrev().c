@@ -22,3 +22,45 @@ int main()
     printf("str1 = %s\n",str1);
     printf("str2 = %s",str2);
 }
+
+
+Or--------------------------------------
+
+
+// Reverse the sentence like a sentence is "i am a good boy" so the reverse sentence of this sentence is "boy good a am I"
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+void reverseSentence(char *sentence)
+{
+    char *token;
+    char *word[100];
+    int count=0;
+
+   // std:: istringstream
+   // std:: vector<std:: string>
+    token = strtok(sentence, " ");
+    while(token!= NULL)
+    {
+        word[count++] = token;
+        token = strtok(NULL, " ");   // token = strtok(NULL, " "); is used to continue the tokenization process and find the next word in the sentence.
+    }
+
+    cout << "Reverse Sentence: ";
+    for(int i=count-1; i>=0; i--)
+    {
+        cout << word[i] << "";
+    }
+    cout << endl;
+}
+
+int main()
+{
+    char sentence[] = "I am so lucky";
+    reverseSentence(sentence);
+
+    return 0;
+}
+   
