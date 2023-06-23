@@ -24,7 +24,7 @@ int main()
 }
 
 
-Or--------------------------------------
+Or--------------------------------------------------------------------------
 
 
 // Reverse the sentence like a sentence is "i am a good boy" so the reverse sentence of this sentence is "boy good a am I"
