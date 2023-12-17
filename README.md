@@ -1,4 +1,4 @@
-## **C Coding Playground: My Personal Learning Journey**
+## C Coding Playground: My Personal Learning Journey**
 
 Welcome to my personal collection of C code! This repository documents my learning journey as I explored various C concepts, from the basics to more advanced topics. Each file represents a step in my progress, showcasing my understanding and experimentation with different techniques.
 
